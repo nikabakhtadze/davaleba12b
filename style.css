@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#181818;
+    position:relative;
+}
+@font-face {
+    font-family:"Graphik" ;
+    src: url(/Graphik.ttf);
+}
+nav{
+    position: absolute;
+    left:503px;
+    top:47px;
+}
+a{
+    padding:51px;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: "Graphik";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    Letter-spacing: 0.2px;
+}
+.container1>img{
+    position:absolute;
+    height:58px;
+    width:186px;
+    top:30px;
+    left:281px;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position:absolute;
+    left:1170px;
+    top:30px;
+    height:58px;
+    width:186px;
+    border:1px solid #FFFFFF; 
+    color:#FFFFFF;
+    font-family:"Graphik";
+    font-weight:500;
+    font-size: 17px;
+    line-height:25px;
+}
+.container3{
+    position:absolute;
+    left:435px;
+    top:214px;
+    width:700px;
+    font-family:"Graphik";
+    font-weight:600;
+    font-size:80px;
+    line-height:88px;
+    color:#FFFFFF;
+    text-align:center;
+}
+.container4{
+    position:absolute;
+    left:530px;
+    top:430px;
+    width:482px;
+    font-family:"Graphik";
+    font-weight:400;
+    font-size:20px;
+    line-height:30px;
+    color:#FFFFFF;
+    text-align:center;
+}
+.container5{
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+    position:absolute;
+    left:800px;
+    top:590px;
+    height:58px;;
+    width:186px;
+    border:1px solid #FFFFFF;
+    color:#FFFFFF;
+}
+.container6>img{
+    position:absolute;
+    left:97.47px;
+    top:682px;
+    height:841px;
+    width:1443px;
+}
+.layer{
+    height:700px;
+    width:100%;
+    position:absolute;
+    top:900px;
+    left:0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 100%);
+    z-index:1;
+}
+.container7{
+    background-color:#4452FE;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:#FFFFFF;
+    position:absolute;
+    top:590px;
+    left:605px;
+    height:58px;
+    width:178px;
+}
